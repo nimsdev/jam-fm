@@ -1,0 +1,720 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    background-color:#222;
+     background-color: rgb(25, 25, 25);
+    color:white;
+    height:auto;
+    overflow-x: hidden !important;
+}
+
+.topper {
+    color: white;
+    top: 25%;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    /*    border:2px solid red;*/
+    width: 100%;
+}
+
+.topper p {
+    width: 50%;
+    font-size: 20pt;
+    letter-spacing: 2px;
+    color: white;
+}
+
+img.logo {
+    width: 300px !important;
+    margin-bottom: 10px;
+}
+
+a.login {
+    color: white;
+    border: 2px solid transparent;
+    background-color: rgba(255, 255, 255, 0.29);
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 15pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.login:hover {
+    background-color: rgba(255, 255, 255, 0.38);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.login:active {
+    background-color: rgba(255, 255, 255, 0.24);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.trial {
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 15pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #4d72b7;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.trial:hover {
+    background-color: #6383bf;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.trial:active {
+    background-color: #3159a5;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.premium {
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 15pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #65b74d;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.premium:hover {
+    background-color: #8ad175;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.premium:active {
+    background-color: #65b74d;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.signup {
+    color: black;
+    background-color: white;
+    padding: 2px 10px;
+    top: 30px;
+    position: relative;
+    /*    padding-bottom: 2px;*/
+    cursor: pointer;
+    text-decoration: none;
+    /*    border-bottom: 1px solid black;*/
+}
+
+div.searchfield {
+    position: relative;
+    top: 105px;
+    height: 0px;
+    /*    border:2px solid red;*/
+}
+
+input.artistsearch {
+    border: 2px solid transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.55);
+    background-color: transparent;
+    height: 55px;
+    letter-spacing: 2px;
+    line-height: 55px;
+    width: 40%;
+    font-size: 20pt;
+    outline: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+input.artistsearch:focus {
+    border-bottom-color: white;
+    color: white;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.submit {
+    color: white;
+    border: 2px solid transparent;
+    height: 55px;
+    width: 120px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: ;
+    text-transform: lowercase;
+    font-size: 15pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(165, 55, 119);
+    cursor: pointer;
+    text-align: center;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 0 85%, 0 15%);
+    clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 0 85%, 0 15%);
+}
+
+a.submit:hover {
+    background-color: rgb(196, 86, 150);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.submit:active {
+    background-color: rgb(165, 55, 119);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.container {
+    text-align: center;
+}
+
+img.albumcover{
+    width:100%;
+}
+
+.albumoftheweek {
+    width:100%;
+    height:700px;
+    background:url(/images/music/starboybg.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    color:white;
+    margin-top:-20px;
+}
+
+.albumoftheweek .container{
+    top:100px;
+    position:relative;
+    text-align:left;
+}
+
+
+.albumoftheweek a.login, .festivala a.login {
+    background-color: #ff406d;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    color: black;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 4px;
+    /*    font-weight:lighter;*/
+    font-size: 12pt;
+    text-transform: uppercase;
+    margin-top:50px;
+    margin-bottom:10px;
+}
+
+.albumoftheweek a.login:hover, .festivala a.login:hover {
+    background-color: #ff406d;
+    color: white;
+}
+
+.albumoftheweek a.trial, .festivala a.trial {
+    border: 2px solid #FFF;
+    color: white;
+    background-color: transparent;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 4px;
+    /*    font-weight:lighter;*/
+    font-size: 12pt;
+    text-transform: uppercase;
+    margin-bottom:10px;
+}
+
+.albumoftheweek a.trial:hover, .festivala a.trial:hover{
+    border-color: #ff406d;
+    color: #ff406d;
+}
+
+.albumoftheweek a.premium {
+    border: 2px solid #2b4f88;
+    color: white;
+    background-color: #2b4f88;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 4px;
+    /*    font-weight:lighter;*/
+    font-size: 12pt;
+    text-transform: uppercase;
+     margin-bottom:10px;
+}
+
+.albumoftheweek a.premium:hover {
+    border-color: #496ca3;
+    background-color: #496ca3;
+}
+
+.albumoftheweek h1{
+/*    text-align:center;*/
+    text-transform: capitalize;
+    position:relative;
+    top:0px;
+    font-weight:100;
+}
+
+.col-sm-6 img {
+    width:80%;
+    border:2px solid black;
+}
+
+.albumlabel {
+    background-color:rgba(134, 128, 128, 0.27);
+    background-color:rgb(0, 0, 0);
+    height:65px;
+    border:2px solid black;
+    padding-left:10px;
+    padding-right:10px;
+    width:80%;
+    text-align:left;
+    z-index:999 !important;
+    position:relative;
+/*    margin-bottom:-16px;*/
+}
+
+p.title{
+    color:white !important;
+    font-size:20pt;
+    font-style: italic;
+    position:relative;
+    top:4px;
+}
+
+p.artist {
+    color:rgba(214, 214, 214, 0.46) !important;
+    font-size:9py;
+    font-style: italic;
+    position:relative;
+    top:-34px;
+}
+
+.tracklist {
+    width:80%;
+    height:200px;
+    background:rgba(62, 62, 62, 0.46);
+    border:2px solid black;
+    border-top:none;
+    text-align:left;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    overflow-y: scroll;
+    margin-top:-16px;
+}
+
+.tracklist .glyphicon {
+    color:#ff406d;
+}
+
+
+.topalbums, .charts{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.topalbums .glyphicon {
+    color:#ff406d;
+}
+
+.topalbums h1 {
+    text-align:center;
+    padding-bottom:20px;
+    font-weight:200;
+    color:#888888;
+}
+
+.tracklist p{
+   color:rgba(255, 255, 255, 0.67);
+    display:inline;
+    cursor:pointer;
+    text-transform: capitalize;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.tracklist p:hover {
+    color:white;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.tracklist p:active{
+   color:rgba(255, 255, 255, 0.52);
+    
+}
+
+.trackitem {
+    display:block;
+    margin-top:12px;
+}
+
+.separator {
+    border-bottom:1px solid rgba(113, 113, 113, 0.32);
+    border-top:2px solid #191919;
+    width:100%;
+    top:5px;
+    position:relative;
+}
+
+.charts .container {
+    text-align:left;
+}
+
+
+img.albumthumb {
+    border:1px solid white;
+    height:40px;
+    width:40px;
+    margin-top:0px;
+    margin-left:14px; 
+    margin-right:31px; 
+    display:inline !important;
+}
+
+.charts .row {
+   height:50px;
+    line-height:50px;
+    font-size:8pt;
+}
+
+.charts .row p {
+    color:#a5a5a5;
+    cursor:pointer;
+    display:inline;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.charts .row p:hover {
+    color:#ff406d;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.charts .row p:active {
+    color:#c31e45;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.charts .row .glyphicon {
+    color:#FF406d;
+}
+
+ .charts .glyphicon {
+    color:#ff406d;
+}
+
+.charts h1 {
+    padding-bottom:10px;
+    font-weight:200;
+    color:#888888;
+}
+
+.charts a.login, .footer a.login {
+    background-color: #ff406d;
+    padding: 0;
+    width: 40%;
+    height: 50px;
+    color: black;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 4px;
+    /*    font-weight:lighter;*/
+    font-size: 12pt;
+    text-transform: uppercase;
+    margin-top:50px;
+    margin-bottom:10px;
+}
+
+.charts a.login:hover {
+    background-color: #ff406d;
+    color: white;
+}
+
+.charts a.login:active {
+    background-color: #ce244c;
+    color: white;
+}
+
+.festivallist {
+    width:100%;
+    height:auto;
+/*    border:2px solid red;*/
+}
+
+.festivallist .row{
+/*    border:2px solid red;*/
+}
+
+.festivallist h1 {
+    color:#ff406d;
+     text-align:left !important;
+    font-size:46pt;
+}
+
+.festivallist h2 {
+    color:#919191;
+     text-align:left !important;
+    font-weight:100;
+    font-size:16pt;
+}
+
+.festivala {
+    background:linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.55)), url(/images/festival.jpeg) no-repeat;
+    background-size:100% 100%;
+    padding-bottom:100px;
+    
+}
+
+.festivala p {
+    font-size:10pt;
+    color:white;
+    display:inline;
+}
+
+.festivala p:nth-child(2n) {
+    color:#ff406d;
+}
+
+.festivala p:nth-child(3n) {
+    color:#768bce;
+}
+
+.festivalb {
+    background:linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.55)), url(/images/backfest.jpeg) no-repeat;
+    background-size:100% 100%;
+    padding-bottom:100px;
+    height:800px;
+}
+
+.festivalb a.login {
+    font-weight:lighter;
+    text-transform: uppercase;
+    width:100%;
+    border-bottom:1px solid transparent;
+    text-align:center;
+    background:rgba(255, 255, 255, 0.15);
+    margin-left:-3px;
+}
+
+.festivalb a.login:hover {
+/*    background-color: rgba(255, 255, 255, 0.38);*/
+    border-bottom-color:#FF405D;
+}
+
+.festivalb a.login:active {
+    background-color: rgba(255, 255, 255, 0.08);
+
+}
+
+.footer{
+    height:500px;
+    text-align:left;
+    font-size:8pt;
+    padding-top:35px;
+}
+
+.footer a {
+    color:#ff406d;
+    cursor:pointer;
+    padding-bottom:1px;
+    text-decoration:none;
+    border-bottom:1px solid transparent;
+     transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.footer a:hover{
+    border-bottom-color:#ff406d;
+     transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.footer a.login {
+    background-color: #ff406d;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    color: black;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 4px;
+    /*    font-weight:lighter;*/
+    font-size: 12pt;
+    text-transform: uppercase;
+    margin-top:0px;
+    margin-bottom:10px;
+    margin-left:-5px;
+}
+
+.footer a.login:hover {
+    background-color: #ff406d;
+    color: white;
+}
+
+.footer a.login:active {
+    background-color: #ce244c;
+    color: white;
+}
+
+@media only screen and (min-width:320px) and (max-width:680px) {
+    .albumoftheweek{
+        height:auto;
+        padding-bottom:150px;
+/*        margin-top:200px;*/
+    }
+    
+    a.login, a.premium, a.trial {
+        width:80%; 
+    }
+    
+
+    .festivala a.login, .festivala a.trial{
+        width:95% !important;
+    }
+    
+  .albumoftheweek a.login, .albumoftheweek a.trial, .albumoftheweek a.premium{
+  width:95%;
+    }
+    .topper {
+    color: white;
+    top: 25%;
+}
+
+.topper p {
+    width: 80%;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    color: white;
+}
+    .topper img{
+        width:100px !important;
+    }
+    
+    .item{
+        height:500px;
+    }
+    
+    img.imgcaro{
+        height:500px !Important;
+    }
+    
+    input {
+        width:100%;
+        display:block;
+        font-size:10pt;display:none;
+    }
+    
+  .col-sm-6 img ,  .albumlabel, .tracklist {
+    width:95%;
+}
+    
+    .charts .row p  {
+/*        color:red !important;*/
+/*        display:none;*/
+    }
+    
+    .charts {
+        width:100%;
+        margin-top:-100px;
+    }
+    .charts span {
+        float:none;
+    }
+    .charts a.login{
+        width:100%;
+        margin-top:-100px;
+    }
+    
+    .charts .row span .glyphicon{
+        top:-50px !important;
+        position:relative;
+    }
+    
+    .remmob{
+        display:none;
+    }
+}
+
+
+
+
+

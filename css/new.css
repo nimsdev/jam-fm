@@ -1,0 +1,153 @@
+.bars {
+    -webkit-transition: 0.02s;
+    -moz-transition: 0.02s;
+    -o-transition: 0.02s;
+    -ms-transition: 0.02s;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    color:#ff406d;
+    top: 7px;
+    position: relative;
+    float: right;
+    /*  text-shadow: 0px 2px 3px black;*/
+}
+
+.bars:active {}
+
+.hi {
+    display: none;
+    z-index: 16;
+    background-color: rgb(25, 25, 25);
+    height: auto;
+    padding-bottom: 27px;
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    float: right;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 5%;
+    overflow: scroll !important;
+    border-bottom: 2px solid #ff406d;
+}
+
+.boxmenu {
+    background: #ffffff;
+    background: #000;
+    height: 50px;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.menulogo img {
+    width: 150px;
+    top: 9px;
+    position: relative;
+}
+
+.hi .container {
+    color: #c1c1c1;
+    /*    background-color:#484848;*/
+    text-align: left;
+    /*    border:2px solid red;*/
+}
+
+.hi a.login {
+    background-color: #ff406d;
+    padding: 0;
+    width: 220px;
+    height: 50px;
+    color: black;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 4px;
+    /*    font-weight:lighter;*/
+    font-size: 12pt;
+    text-transform: uppercase
+}
+
+.hi a.login:hover {
+    background-color: #ff406d;
+    color: white;
+}
+
+.hi a.trial {
+    border: 2px solid black;
+    color: white;
+    background-color: transparent;
+    padding: 0;
+    width: 220px;
+    height: 50px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 4px;
+    /*    font-weight:lighter;*/
+    font-size: 12pt;
+    text-transform: uppercase
+}
+
+.hi a.trial:hover {
+    border-color: #ff406d;
+    color: #ff406d;
+}
+
+.hi .col-sm-4 {
+    width: 320px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.hi .col-sm-4:hover {
+    background-color: #000000;
+/*    box-shadow: inset 0px 2px 0 0 #222;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.hi .col-sm-4:hover .button:hover {
+    background-color: transparent;
+}
+
+.hi .glyphicon {
+    color: #ff406d;
+    font-size: 15pt;
+    top: 4px;
+}
+
+.hi .menulink {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.54);
+    transition: all .3s ease;
+    margin-left: 20px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.hi .menulink:hover {
+    color: #FFF;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.hi .menulink:active {
+    color: rgba(137, 137, 137, 0.7);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}

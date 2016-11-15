@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Music Demo by Jonathan Belok</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
+    <link href="css/new.css" rel="stylesheet">
+    <link href="css/music.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald');
+        .item img {
+            width: 100%;
+        }
+        
+        @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="boxmenu"> <span class="menulogo"><img src="images/sites/viga.regular-white.png" alt="logo"></span> <span class="bars"> <span class="glyphicon glyphicon-menu-hamburger" style="top:3px;"></span></span>
+    </div>
+    <div class="hi">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"> <span class="glyphicon glyphicon-user"></span><a class="menulink">My Account</a> </div>
+                <div class="col-sm-4"> <span class="glyphicon glyphicon-qrcode"></span><a class="menulink">Scanner</a> </div>
+                <div class="col-sm-4 button" style="background-color:transparent;"> <a class="login">trial</a> </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-4"> <span class="glyphicon glyphicon-signal"></span><a class="menulink">Charts</a> </div>
+                <div class="col-sm-4"> <span class="glyphicon glyphicon-export"></span><a class="menulink">Trending Artists</a> </div>
+                <div class="col-sm-4" style="background-color:transparent;"> <a class="trial">download</a> </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-4"> <span class="glyphicon glyphicon-headphones"></span><a class="menulink">Listen</a> </div>
+                <div class="col-sm-4"> <span class="glyphicon glyphicon-globe"></span><a class="menulink">Discover </a> </div>
+                <div class="col-sm-4 button"> <span class="glyphicon glyphicon-tag"></span><a class="menulink">Discount Code</a> </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-4" style="background-color:transparent;"> <a class="menulink">About</a> </div>
+                <div class="col-sm-4" style="background-color:transparent;"> <a class="menulink">FAQ </a> </div>
+                <div class="col-sm-4" style="background-color:transparent;"> <a class="menulink">Help</a> </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4" style="background-color:transparent;"> <a class="menulink">Language</a> </div>
+                <div class="col-sm-4" style="background-color:transparent;"> <a class="menulink">Legal </a> </div>
+                <div class="col-sm-4" style="background-color:transparent;"> <a class="menulink">Terms</a> </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4" style="background-color:transparent;"> <a class="menulink">Contact</a> </div>
+                <div class="col-sm-4" style="background-color:transparent;">
+                    <a class="menulink"> </a>
+                </div>
+                <div class="col-sm-4" style="background-color:transparent;">
+                    <a class="menulink"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="topper">
+                    <center> <img src="images/sites/viga.regular-white.png" class="logo" alt="logo">
+                        <p>be the first to get the latest hits and news from today's top artists.</p> <a class="login">Log In</a> <a class="trial">10 Day Premium Trial</a>
+                        <br> <a class="signup">not a member? sign up! it's free!</a> </center>
+                </div> <img src="images/exclusive.jpeg" alt="Header" class="imgcaro"> </div>
+            <div class="item">
+                <div class="topper">
+                    <center> <img src="images/sites/search-viga.png" class="logo" alt="logo">
+                        <p>find the lastest news and songs from your favourite artists &amp; bands!</p>
+                        <input class="artistsearch" placeholder="search artists &amp; songs"><a class="submit">Search</a> </center>
+                </div> <img src="images/search-mix.jpeg" alt="Search" class="imgcaro"> </div>
+            <div class="item">
+                <div class="topper">
+                    <center> <img src="images/sites/premium-viga.png" class="logo" alt="logo">
+                        <p>exclusive content before initial releases, streaming over 4 devices, no ads &amp; more!</p> <a class="premium">Unlock $2.88/MO</a> <a class="login">all features</a>
+                        <br> <a class="signup">member login / signup</a> </center>
+                </div> <img src="images/premium3.jpeg" alt="Premium" class="imgcaro"> </div>
+        </div>
+        <!--           Left and right controls-->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <div class="albumoftheweek">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>Song of the week</h1> </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"><img class="albumcover" src="images/music/starboy.jpg">
+                    <audio id="music" preload="true">
+                        <source src="/audio/falsealarm.mp3">
+                        <!--			<source src="https://www.youtube.com/watch?v=AIjm8W_4qz4">-->
+                    </audio>
+                    <center>
+                        <button id="pButton" class="play" onclick="play()"></button>
+                    </center> <span class="glyphicon glyphicon-heart"></span> 1.2M &nbsp;&nbsp; <span class="glyphicon glyphicon-headphones"></span> 21.8M
+                    <br> False Alarm - The Weeknd
+                    <br> Starboy </div>
+                <div class="col-sm-4" style="background-color:transparent;"> <a class="login"><span class="glyphicon glyphicon-headphones"></span>web player</a>
+                    <br> <a class="trial"><span class="glyphicon glyphicon-plus"></span>  playlist</a>
+                    <br> <a class="premium"><span class="glyphicon glyphicon-tag"></span> buy album</a> </div>
+            </div>
+        </div>
+    </div>
+    <div class="topalbums">
+        <h1> <span class="glyphicon glyphicon-export"></span> Trending Albums</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <center> <img src="images/music/gaga-joanne.png">
+                        <div class="albumlabel">
+                            <p class="title">Joanne</p>
+                            <br>
+                            <p class="artist">Lady Gaga</p>
+                        </div>
+                        <div class="tracklist">
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Diamond Heart</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>A-Yo</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Joanne</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>John Wayne</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Dancin' In Circles</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Perfect Illusion</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Million Reasons</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Sinner's Prayer</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Come To Mama</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Hey Girl ft. Florence Welch</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Angel Down</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator" style="border-top-color:transparent;border-bottom-color:transparent;"></div>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-sm-6">
+                    <center> <img src="images/music/chance-coloringbook.jpg">
+                        <div class="albumlabel">
+                            <p class="title">Coloring Book</p>
+                            <br>
+                            <p class="artist">Chance The Rapper</p>
+                        </div>
+                        <div class="tracklist">
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>All We Got </p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>no problem</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Summer Friends</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>D.R.A.M Sings Special</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Blessings</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Same Drugs</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Mixtape</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>Angels</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>juke jam</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>all night</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>how great</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>smoke break</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>finish line / down</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="trackitem"> <span class="glyphicon glyphicon-play"></span>&nbsp;&nbsp;
+                                <p>blessings (reprise)</p> <span style="float:right;">
+                        <span class="glyphicon glyphicon-plus"></span> <span class="glyphicon glyphicon-heart" style="top:2px;"></span> </span>
+                               <div class="separator" style="border-top-color:transparent;border-bottom-color:transparent;"></div>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="charts">
+        <div class="container">
+            <h1><span class="glyphicon glyphicon-signal"></span> Top Ten</h1>
+            <div class="row" style="background:black;">
+                <div class="col-sm-3">1. <img src="images/music/thumbs/closer.jpeg" class="albumthumb">
+                    <p>Closer</p>
+                </div>
+                <div class="remmob">
+                <div class="col-sm-3">
+                    <p> The Chainsmokers ft. Halsey </p>
+                </div>
+                <div class="col-sm-3">
+                    <p> Now That's What I Call Music!</p>
+                </div>
+            </div>
+                <div class="col-sm-3"> <span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-minus" style="color:white;"></span> </span>
+                </div>
+            </div>
+            <div class="row" style="background:;">
+                <div class="col-sm-3">2. <img src="images/music/thumbs/starboy.jpg" class="albumthumb">
+                    <p>Starboy</p>
+                </div>
+                 <div class="remmob">
+                <div class="col-sm-3">
+                    <p>The Weehnd ft. Daft Punk </p>
+                </div>
+                <div class="col-sm-3">
+                    <p> Starboy</p>
+                </div>
+                </div>
+                <div class="col-sm-3"><span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-minus" style="color:white;"></span> </span>
+                </div>
+            </div>
+            <div class="row" style="background:black;">
+                <div class="col-sm-3">3. <img src="images/music/thumbs/heathens.jpg" class="albumthumb">
+                    <p>Heathens</p>
+                </div>
+                 <div class="remmob">
+                <div class="col-sm-3">
+                    <p>Twenty One Pilots </p>
+                </div>
+                <div class="col-sm-3">
+                    <p>Suicide Squad</p>
+                </div>
+                </div>
+                <div class="col-sm-3"> <span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-minus" style="color:white;"></span> </span>
+                </div>
+            </div>
+            <div class="row" style="background:;">
+                <div class="col-sm-3">4. <img src="images/music/thumbs/encore.jpg" class="albumthumb">
+                    <p>Let Me Love U</p>
+                </div>
+                 <div class="remmob">
+                <div class="col-sm-3">
+                    <p>DJ Snake ft. Justin Bieber </p>
+                </div>
+                <div class="col-sm-3">
+                    <p>Encore</p>
+                </div>
+                </div>
+                <div class="col-sm-3"> <span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-minus" style="color:white;"></span> </span>
+                </div>
+            </div>
+            <div class="row" style="background:black;">
+                <div class="col-sm-3">5. <img src="images/music/thumbs/broc.jpeg" class="albumthumb">
+                    <p>Broccoli</p>
+                </div>
+                 <div class="remmob">
+                <div class="col-sm-3">
+                    <p>D.R.A.M ft. Lil Yachty</p>
+                </div>
+                <div class="col-sm-3">
+                    <p>Big Baby D.R.A.M.</p>
+                </div>
+                </div>
+                <div class="col-sm-3"> <span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-minus" style="color:white;"></span> </span>
+                </div>
+            </div>
+            <div class="row" style="background:;">
+                <div class="col-sm-3">6. <img src="images/music/thumbs/dangerouswoman.jpeg" class="albumthumb">
+                    <p>Side To Side</p>
+                </div>
+                 <div class="remmob">
+                <div class="col-sm-3">
+                    <p>Ariana Grande ft. Nicki Minaj</p>
+                </div>
+                <div class="col-sm-3">
+                    <p>Dangerous Woman</p>
+                </div>
+                </div>
+                <div class="col-sm-3"> <span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-arrow-up" style="color:green;"></span> </span>
+                </div>
+            </div>
+            <div class="row" style="background:black;">
+                <div class="col-sm-3">7. <img src="images/music/thumbs/24kmagic.jpeg" class="albumthumb">
+                    <p>24K Magic</p>
+                </div>
+                 <div class="remmob">
+                <div class="col-sm-3">
+                    <p>Bruno Mars</p>
+                </div>
+                <div class="col-sm-3">
+                    <p>24K Magic</p>
+                </div>
+                </div>
+                <div class="col-sm-3"> <span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-arrow-down" style="color:red;"></span> </span>
+                </div>
+            </div>
+            <div class="row" style="background:;">
+                <div class="col-sm-3">8. <img src="images/music/thumbs/raesremm.jpeg" class="albumthumb">
+                    <p>Black Beatles</p>
+                </div>
+                 <div class="remmob">
+                <div class="col-sm-3">
+                    <p>Rae Sremmurd ft. Gucci Mane</p>
+                </div>
+                <div class="col-sm-3">
+                    <p>SremmLife 2</p>
+                </div>
+                </div>
+                <div class="col-sm-3"> <span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-arrow-up" style="color:green;"></span> </span>
+                </div>
+            </div>
+            <div class="row" style="background:black;">
+                <div class="col-sm-3">9. <img src="images/music/thumbs/fakelove.jpeg" class="albumthumb">
+                    <p>Fake Love</p>
+                </div>
+                 <div class="remmob">
+                <div class="col-sm-3">
+                    <p>Drake</p>
+                </div>
+                <div class="col-sm-3">
+                    <p></p>
+                </div>
+                </div>
+                <div class="col-sm-3"> <span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-arrow-up" style="color:green;"></span> </span>
+                </div>
+            </div>
+            <div class="row" style="background:;">
+                <div class="col-sm-3"><span style="margin-left:-8px;">10.</span> <img src="images/music/thumbs/coldwater.jpeg" class="albumthumb">
+                    <p>Cold Water</p>
+                </div>
+                 <div class="remmob">
+                <div class="col-sm-3">
+                    <p>Major Lazer ft. Justin Bieber</p>
+                </div>
+                <div class="col-sm-3">
+                    <p> Music Is the Weapon</p>
+                </div>
+                </div>
+                <div class="col-sm-3"> <span style="float:right;">
+                    <span class="glyphicon glyphicon-play"></span>&nbsp; <span class="glyphicon glyphicon-plus"></span>&nbsp; <span class="glyphicon glyphicon-heart" style="top:2px;"></span> &nbsp; <span class="glyphicon glyphicon-arrow-up" style="color:green;"></span> </span>
+                </div>
+            </div>
+            <center><a class="login">View Full Chart</a></center>
+        </div>
+    </div>
+    <div class="festivallist">
+        <div class="festivala">
+            <div class="row">
+                <div class="col-sm-4">
+                    <center> <img src="images/mformont.jpg" style="width:70%;padding-top:35px;" alt="Festival logo"></center>
+                </div>
+                <div class="col-sm-4">
+                    <h1>M For Montreal 2016</h1>
+                    <h2>Montreal, QB<br>
+                        <span style="color:white;">November 16-19, 2016</span></h2> </div>
+                <div class="col-sm-4"> </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4"> </div>
+                <div class="col-sm-4">
+                    <p>ADAMN KILLA</p>
+                    <p>BAAUER</p>
+                    <p>BEAR MOUNTAIN</p>
+                    <p>BERNARDINO FEMMINIELLI</p>
+                    <p>BOOGAT</p>
+                    <p>BRENDAN CANNING</p>
+                    <p>BROWN</p>
+                    <p>BUSTY AND THE BASS</p>
+                    <p>CASPIAN</p>
+                    <p>DARCYS</p>
+                    <p>GABRIELLE SHONK</p>
+                    <p>HOT CHIP DJ SET</p>
+                    <p>LARY KIDD</p>
+                    <p>LES ANTICIPATEURS</p>
+                    <p>MARTHA WAINWRIGHT</p>
+                    <p>MEN I TRUST</p>
+                    <p>MICHAEL RAULT</p>
+                    <p>NEW FRIES</p>
+                    <p>NOBUNNY</p>
+                    <p>POIRIER MIGRATION SOUNDSYSTEM</p>
+                    <p>RYMZ</p>
+                    <p>SHASH</p>’U
+                    <p>SONIDO PESAO</p>
+                    <p>THE APPLESEED CAST</p>
+                    <p>THE DAMN TRUTH</p>
+                    <p>TOMMY KRUISE</p>
+                    <p>VNCE CARTER (DEAD OBIES)</p>
+                    <p>WORDUP! BATTLES</p>
+                </div>
+                <div class="col-sm-4"> <a class="login" style="width:80%;">Buy Tickets</a>
+                    <br> <a class="trial" style="width:80%;">Site</a>
+                    <br>
+                    <br> </div>
+            </div>
+        </div>
+    </div>
+    <div class="festivalb">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" style="padding-top:60px;font-size:7pt;text-align:left;color:#b5b5b5;"> <img src="images/paradise.jpg" alt="paradise festiavl logo">
+                    <br>
+                    <br> PARADISE IS A 3 DAY MUSIC, CAMPING AND BYO FESTIVAL HELD AT LAKE MOUNTAIN ALPINE RESORT ON THE CUSP OF SUMMER. PARADISE IS DEFINED BY ITS WELL-CURATED ALL AUSTRALIAN LINEUP AND A STRIKING MOUNTAIN-TOP LANDSCAPE.THREE STAGES DEFINE THE PARADISE EXPERIENCE; A LUSH GRASS AMPHITHEATER, A LUX CLUB AND A BASEMENT NITERIE.
+                    <br>
+                    <br> <span style="font-size:12pt;color:#ff406d;">Price:</span> <span style="font-size:12pt;color:#fff;">$250</span>
+                    <br>
+                    <br> <span style="font-size:12pt;color:#ff406d;">Location:</span> <span style="font-size:12pt;color:#fff;">MARYSVILLE, AUSTRALIA</span>
+                    <br>
+                    <br> <span style="font-size:12pt;color:#ff406d;">When?:</span> <span style="font-size:12pt;color:#fff;">NOVEMBER 25-NOVEMBER 27, 2016</span>
+                    <br>
+                    <br> <span style="font-size:12pt;color:#ff406d;">Lineup:</span> ALICE IVY &middot; AWESOME WALES &middot; BARO &middot; BISCOTTI &middot; BROOKE POWERS &middot; BUOY &middot; CHRISTOPHER PORT &middot; CORIN &middot; COUTURE &middot; DANNIKA &middot; DEER &middot; DJ KITI &middot; DJ LACHLAN K &middot; DREAMTEAM PROJECTS &middot; FORTUNES &middot; FRIENDSHIPS &middot; GABRIELLA COHEN &middot; GL &middot; GOLD CLASS &middot; HARVEY SUTHERLAND &amp; BERMUDA &middot; HI-TEC EMOTIONS &middot; HOLY BALM &middot; HUNTLY &middot; INFINITY BLADE &middot; JALÉ &middot; JULIA JACKLIN &middot; KANGAROO SKULL &middot; KRAKATAU &middot; LISTEN DJS &middot; LOSSLESS &middot; LUCIANBLOMKAMP &middot; LUCY CLICHÉ &middot; MILES BROWN &middot; MOON HOLIDAY &middot; MU-GEN &middot; NALI &middot; NULL &middot; OCDANTAR &middot; OLIV JAMS &middot; PARADISE DJS &middot; PEARLS &middot; PLANÈTE &middot; POST PERCY &middot; RAINBOW CHAN &middot; RIVER YARRA &middot; SAATSUMA &middot; SAL &middot; SHOUSE &middot; SIMONA CASTRICUM &middot; SUI ZHEN &middot; TERRIBLE TRUTHS &middot; TOM BAKER &middot; VOLUMES DJS
+                    <br>
+                    <br> <a class="login">Buy Tickets</a> </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4" style="text-align:left;"> <img src="images/sites/viga.regular-white.png" alt="logo"> <br><br>
+                Jam.fx is a simple music site mockup made by Jonathan Belok. It is  a streaming service (yes, another one....) that provides users exclusive songs, breaking news, festival updates, and anything else in the music biz.<br><br>
+                Photos from <a href="http://unsplash.com/" target="_blank">Unsplash</a><br><br>
+                Inspo: <a href="http://tiday.com/" target="_blank">Tidal</a><br><br>
+                    Thanks for checking it out! <br><br>
+                    <a class="login" href="http://www.jonathanbelok.com/">home</a>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/audio.js"></script>
+    <script>
+        $('.boxmenu').on('click', function () {
+            $('.hi').toggle("medium");
+        });
+    </script>
+</body>
+
+</html>
