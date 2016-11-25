@@ -397,9 +397,14 @@ p.artist {
 }
 
 .topalbums,
-.charts {
+ {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.charts{
+   padding-top:40px; 
+   padding-bottom:40px; 
 }
 
 .topalbums .glyphicon {
