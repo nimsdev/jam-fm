@@ -714,6 +714,11 @@ img.albumthumb {
     .tracklist {
         width: 95%;
     }
+    
+    .tracklist {
+        margin-bottom:15px;
+    }
+    
     .charts .row p {
         /*        color:red !important;*/
         /*        display:none;*/
